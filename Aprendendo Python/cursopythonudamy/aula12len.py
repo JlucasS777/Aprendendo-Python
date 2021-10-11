@@ -1,0 +1,6 @@
+usuario = input ("Digite seu usuário : ")
+qtd_caracteres = len(usuario)
+print(usuario,qtd_caracteres,type(qtd_caracteres))
+n1 = input("Digite alguma coisa: ")
+n2 = input("Digite outra coisa: ")
+print(f"O total de caracteres digitados foi {len(n1)+len(n2)} ")
